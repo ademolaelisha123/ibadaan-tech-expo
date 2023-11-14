@@ -1,0 +1,681 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.image  {
+ margin-left: 2.8em;
+ margin-top: 2em;
+}
+
+
+.speakers {
+    margin-left: 30em;
+    margin-top: -2.6em;
+    /* font-weight: bold; */
+    font-size: 25px;
+    color: darkblue;
+}
+
+.speakers:hover {
+    text-decoration: underline gold;
+}
+
+@media screen and (max-width:490px) {
+    .speakers {
+        display: none;
+    }
+}
+
+.contact {
+    margin-left: 36em;
+    margin-top: -2.1em;
+    /* font-weight: bold; */
+    font-size: 25px;
+    color: darkblue;
+}
+
+.contact:hover {
+    text-decoration: underline gold;
+}
+
+@media screen and (max-width:490px) {
+    .contact {
+        display: none;
+    }
+}
+
+.venue {
+    margin-left: 41em;
+    margin-top: -2.1em;
+    /* font-weight: bold; */
+    font-size: 25px;
+    color: darkblue;
+}
+
+.venue:hover {
+    text-decoration: underline gold;
+}
+
+@media screen and (max-width:490px) {
+    .venue {
+        display: none;
+    }
+}
+
+#button {
+    color: darkblue;
+    margin-left: 70em;
+    margin-top: -6.0em;
+    font-weight: bold;
+}
+
+#button:hover {
+    color: white;
+}
+
+@media screen and (max-width:490px) {
+    #button {
+        display: none;
+    }
+}
+
+.techexpo {
+    width: 80em;
+}
+
+@media screen and (max-width:490px) {
+    .techexpo {
+        width: 26em;
+    }
+}
+
+.edition {
+    color: blue;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 0.9em;
+}
+
+@media screen and (max-width:490px) {
+    .edition {
+        margin-left: 0.2em;
+        font-size: 1.2em;
+        font-weight: lighter;
+    }
+}
+
+.rotate {
+    animation: rotate 3s infinite linear;
+    margin-left: 0.9em;
+}
+
+@media screen and (max-width:490px) {
+    .rotate {
+        width: 40px;
+        margin-top: 0.2em;
+        margin-left: 4.5em; 
+    }
+}
+
+@keyframes rotate{
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+    transform: rotate(360deg);
+    }
+}
+
+.line {
+    width: 250px;
+    color: black;
+}
+
+@media screen and (max-width:490px) {
+    .line {
+        margin-left: 9em;
+        width: 205px;
+        margin-top: -3.2em;
+    }
+}
+
+.straight {
+    width: 250px;
+    color: black;
+}
+
+@media screen and (max-width:490px) {
+    .straight {
+        margin-top: 2em;
+        margin-right: 9.3em;
+    }
+}
+
+.month {
+    color: blue;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 36em;
+    margin-top: -3em;
+}
+
+@media screen and (max-width:490px) {
+    .month {
+        margin-left: 17.2em;
+        font-size: 1.0em;
+        font-weight: lighter;
+        margin-top: -1.8em;
+    }
+}
+
+#gradient {
+    background-image: linear-gradient(to right,#c58e09,#5576cf,#5576cf);
+    height: 20em;
+    border-radius: 2%;
+    width: 95%;
+}
+
+#ibadan {
+width: 36em; 
+margin-left: 2em;
+}
+
+@media screen and (max-width:490px) {
+#ibadan {
+    width: 25em;
+    margin-left: -0.1em;
+}
+}
+
+
+
+.flex {
+    display: flex;
+    background-color: white;
+    margin-top: 5em;
+    height: 40em;
+}
+
+.flex-item {
+    width: 50%;
+    height: 30em;
+}
+
+@media screen and (max-width:490px) {
+    .flex-item {
+        width: 100%;
+        height: 10em;
+    }
+}
+
+#google {
+width: 39em;
+}
+
+@media screen and (max-width:490px) {
+    #google {
+        margin-left: -30em;
+        margin-top: 29em;
+        width: 30em;
+    }
+}
+
+.location {
+    width: 100%;
+    height: 30em;
+}
+
+.rhythm {
+    font-size: 69px;
+    color: darkblue;
+    font-weight: bolder;
+    margin-left: 1em;
+}
+
+@media screen and (max-width:490px) {
+    .rhythm {
+        margin-top: 9em;
+        font-size: 35px;
+    }
+}
+
+.locationimage {
+    width: 100%;
+}
+
+@media screen and (max-width:490px) {
+    .locationimage {
+        margin-top: -1em;
+        width: 100%;
+    }
+}
+
+.textlocation {
+    margin-top: -13em;
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 2em
+}
+
+@media screen and (max-width:490px) {
+    .textlocation {
+        margin-top: -10em;
+        font-size: 15px;
+        color: white;
+    }
+}
+
+.treasure {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10em;
+}
+
+
+.janet {
+    color: darkblue;
+    font-weight: bolder;
+    font-size: 4em;
+}
+
+@media screen and (max-width:490px) {
+    .janet {
+        color: darkblue;
+        font-size: 2em;
+        margin-top: -12em;
+    }
+}
+
+.patricia {
+    margin-top: 3em;
+    margin-left: 45em;
+    color: darkblue;
+}
+
+@media screen and (max-width:490px) {
+    .patricia {
+        color: darkblue;
+        margin-left: -50em;
+        margin-top: -23em;
+    }
+}
+
+
+.ayo {
+    color: gold;
+}
+
+@media screen and (max-width:490px) {
+    .ayo {
+        display: none;
+    }
+}
+
+
+.imageclass {
+ display: flex;
+ flex-wrap: wrap;
+ margin-top: 3em;
+ row-gap: 2em;
+}
+
+@media screen and (max-width:490px) {
+    .imageclass {
+       margin-top: -19em;
+    }
+}
+
+
+.talkersworld {
+    width: 19em;
+    height: 26em;
+    margin-left: 0.5em;
+}
+
+.elisha {
+    width: 15em;
+}
+
+.rank {
+    text-align: center;
+    color: darkblue;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.marvelous {
+    font-size: medium;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: -1em;
+    color: darkblue;
+}
+
+.tickete {
+    font-size: 6em;
+    margin-left: 0.5em;
+    color: darkblue;
+    font-weight: bolder;
+}
+
+.tobi {
+    display:  flex;
+}
+
+.secure {
+    width: 50%;
+    height: 150px;
+    margin-left: 2.5em;
+}
+
+@media screen and (max-width:490px) {
+    .secure {
+        text-align: center;
+    }
+}
+
+
+.cards {
+    width: 50%;
+    height: 150px;
+    margin-left: -10em;
+}
+
+.ass {
+    width: 35em;
+    height: 300px;
+    margin-left: 15em;
+}
+
+@media screen and (max-width:490px) {
+    .ass {
+        margin-top: 15em;
+        margin-left: -12em;
+    }
+}
+
+.gideon {
+    font-size: 2em;
+    position: absolute;
+    color: darkblue;
+    text-align: center;
+    margin-top: 4em;
+    margin-left: 8em;
+    font-weight: bold;
+}
+
+@media screen and (max-width:490px) {
+    .gideon {
+        font-size: 1em;
+        margin-top: 27em;
+        margin-left: 2em;
+    }
+}
+
+.segun {
+    display: flex;
+    justify-content: center;
+    margin-top: 19em;
+    column-gap: 3em;
+}
+
+@media screen and (max-width:490px) {
+    .segun {
+        flex-wrap: wrap;
+        margin-top: 29em;
+    }
+}
+
+.pelumi {
+    width: 20em;
+    height: 35em;
+    border-radius: 4%;
+}
+
+.pelumi:hover {
+    background-color: green;
+    transition: 2s;
+}
+
+@media screen and (max-width:490px) {
+    .pelumi {
+        background-color: green;
+        height: 32em;
+    }
+}
+
+.temitope {
+    width: 20em;
+    height: 40em;
+    border-radius: 4%;
+    margin-top: -3em;
+    background-color: goldenrod;
+}
+
+@media screen and (max-width:490px) {
+    .temitope {
+        height: 38em;
+        margin-top: 3em;
+    }
+}
+
+.benedict {
+    width: 20em;
+    height: 37em;
+    border-radius: 4%;
+}
+
+.benedict:hover {
+    background-color: blue;
+    transition: 2s;
+}
+
+@media screen and (max-width:490px) {
+    .benedict {
+        margin-top: 5em;
+        background-color: blue;
+        height: 37em;
+    }
+}
+
+.zuckerberg {
+    margin-left: 0.7em;
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+
+.regular {
+    font-weight: bolder;
+    margin-left: 0.7em;
+    font-size: 1.5em;
+}
+
+.live {
+    font-size: small;
+    margin-left: 0.7em;
+    font-weight: bold;
+}
+
+.money {
+    display: flex;
+    font-weight: bold;
+}
+
+.elon {
+    margin-left: 0.7em;
+    margin-top: 1em;
+    font-weight: bolder;
+    font-size: 1.5em;
+    color: darkblue;
+}
+
+.vip {
+    font-weight: bolder;
+    margin-left: 0.7em;
+    font-size: 1.5em;
+    color: darkblue;
+}
+
+.mary {
+    font-size: small;
+    margin-left: 0.7em;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.bezos {
+    margin-top: -3em;
+    font-weight: bold;
+}
+
+.imisi {
+    color: darkblue;
+    font-weight: bolder;
+    font-size: 2.5em;
+    margin-left: 2em;
+}
+
+@media screen and (max-width:490px) {
+    .imisi {
+        margin-top: 6em;
+        font-size: 1.5em;
+    }
+}
+
+.thomas {
+    background-image: linear-gradient(to right,#132351,#132351,#b75360);
+    height: 40em;
+    width: 100%;
+    margin-top: 5em;
+    display: flex;
+}
+
+@media screen and (max-width:490px) {
+    .thomas {
+        flex-wrap: wrap;
+        width: 100%;
+        height: 90em;
+    }
+}
+
+.galore {
+    color: white;
+    font-size: 3em;
+    margin-top: 4em;
+    margin-left: 2em;
+    font-weight: bolder;
+}
+
+@media screen and (max-width:490px) {
+    .galore {
+        font-size: 2em;
+    }
+}
+
+.watch {
+    color: white;
+    margin-left: 7em;
+    width: 30%;
+}
+
+@media screen and (max-width:490px) {
+    .watch {
+        margin-left: 2em;
+    }
+}
+
+
+.laptop {
+    width: 10em;
+    height: 10em;
+    margin-top: 16em;
+    margin-left: -10em;
+}
+
+@media screen and (max-width:490px) {
+    .laptop {
+        width: 10em;
+        height: 10em;
+        margin-left: -10em;
+    }
+}
+
+.girlie {
+width: 20em;
+margin-top: 9em;
+}
+
+@media screen and (max-width:490px) {
+    .girlie {
+        margin-top: -1em;
+    }
+}
+
+.part {
+    margin-top: 3em;
+    font-size: 4em;
+    font-weight: bolder;
+    color: darkblue;
+    margin-left: 2em;
+}
+
+@media screen and (max-width:490px) {
+    .part {
+        margin-left: 2em;
+        font-size: 1.7em;
+        margin-top: 2em;
+    }
+}
+
+.med {
+    margin-top: 3em;
+    font-size: 4em;
+    font-weight: bolder;
+    color: darkblue;
+    margin-left: 2em;
+}
+
+@media screen and (max-width:490px) {
+    .med {
+        margin-left: 2em;
+        font-size: 1.7em;
+        margin-top: 2em;
+    }
+}
+
+.come {
+    margin-top: 3em;
+    font-size: 4em;
+    font-weight: bolder;
+    color: darkblue;
+    margin-left: 2em;
+}
+
+@media screen and (max-width:490px) {
+    .come {
+        margin-left: 2em;
+        font-size: 1.7em;
+        margin-top: 2em;
+    }
+}
+
+.rokiba {
+    background-color: #132351;
+    width: 100%;
+    height: 5em;
+}
+
+.fortg {
+    color: white;
+    font-weight: bolder;
+    font-size: 1em;
+    margin-top: 2em;
+}
