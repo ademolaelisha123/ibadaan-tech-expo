@@ -442,6 +442,7 @@ width: 39em;
 .pelumi:hover {
     background-color: green;
     transition: 2s;
+    color: white;
 }
 
 @media screen and (max-width:490px) {
@@ -475,6 +476,7 @@ width: 39em;
 .benedict:hover {
     background-color: blue;
     transition: 2s;
+    color: white;
 }
 
 @media screen and (max-width:490px) {
